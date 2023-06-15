@@ -1,0 +1,47 @@
+.container {
+    background: $blue;
+    color: #f1f1f1;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 900px;
+    margin: 20px auto 0;
+
+    h1 {
+    font-size: 40px;
+    }
+
+    button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    }
+    button:hover {
+    background: lightblue;
+    color: #f1f1f1;
+}
+
+
+// &:hover {
+//     background: lightblue;
+//     color: #f1f1f1;
+// }
+
+}
+
+h2 {
+    color: crimson;
+    @extend %subtitle;
+}
+h3 {
+    color: lightgreen;
+    @extend %subtitle;
+}
+h4 {
+    color: lightblue;
+    @extend %subtitle;
+}
+
+
